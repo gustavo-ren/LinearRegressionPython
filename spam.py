@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 #Importing data to be analysed
-dataset = pd.read_csv("C:\\Users\\Gustavo\\Documents\\Big data e Cloud\\Machine_Learning_AZ_Template_Folder\\Machine Learning A-Z Template Folder\\Part 2 - Regression\\Section 4 - Simple Linear Regression\\Simple_Linear_Regression\\Salary_Data.csv")
+dataset = pd.read_csv("Salary_Data.csv")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
